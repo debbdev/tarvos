@@ -1,0 +1,41 @@
+.statusBarContainer {
+  background-color: #fff;
+  padding: 20px 30px 10px 30px;
+  align-items: center;
+  height: 100px;
+}
+.statusBar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.statusRight {
+  display: flex;
+  justify-content: space-between;
+}
+.status {
+  margin-left: 20px;
+}
+.statusBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.statusBottomIcon {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.statusBattery {
+  transform: rotate(90deg);
+}
+.statusBottomRight {
+  display: flex;
+}
+.shoppingCart {
+  margin-right: 1300px;
+}

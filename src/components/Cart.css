@@ -1,0 +1,89 @@
+.shoppingCartMain {
+  height: 100%;
+  padding: 40px 100px 20px 100px;
+  border-top: 3px solid rgb(226, 224, 224);
+  box-sizing: border-box;
+  box-shadow: 5px 10px rgb(226, 224, 224);
+}
+.shop {
+  margin-right: 50px;
+}
+.shoppingCartContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+}
+.shoppingCartImageContainer {
+  background-color: #f7f0e4;
+  width: 25vw;
+  height: 20vh;
+  text-align: center;
+}
+.shoppingCartImage {
+  object-fit: contain;
+  padding-top: 20px;
+  width: 15vw;
+  height: 15vh;
+}
+.shoppingCartDetails {
+  line-height: 30px;
+}
+.shoppingCartDetails h4 {
+  padding-top: 0;
+  padding-left: 0;
+}
+.shoppingCartDetails h5 {
+  color: red;
+  cursor: pointer;
+}
+.shoppingCartDetailsText {
+  margin-right: 20px;
+}
+.img37Container {
+  background-color: #d1d4d8;
+}
+.cartDetailsContainer {
+  padding-top: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartSingle {
+  color: gray;
+}
+.cartDetails {
+  line-height: 50px;
+}
+.cartDetailsPrice {
+  line-height: 45px;
+  padding-top: 55px;
+}
+.shoppingCartSelectDetails {
+  border: none;
+  transform: rotate(90deg);
+}
+.shoppingCartSelect {
+  width: 100px;
+  height: 30px;
+  border-radius: 14px;
+  border: 2px solid gray;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoppingCartSelectOption {
+  border: none;
+  background-color: #fff;
+  transform: rotate(-90deg);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.final {
+  padding-top: 20px;
+}
+.cartDetailsHr {
+  color: gray;
+  margin-top: 30px;
+}
